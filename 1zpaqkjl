@@ -1,1 +1,11 @@
-read
+local validKey = "A1B2C3D4E5"
+
+return function(receivedKey)
+    if receivedKey == validKey then
+        print("Correct")
+    else
+        print("Not correct. Your key was: \"" .. tostring(receivedKey) .. "\". The valid key was: \"" .. validKey .. "\"")
+        
+        return
+    end
+end
