@@ -1,1 +1,8 @@
 print("sorry this script is redacted due to 2soat not wanting the script public for now.")
+
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "ERROR 404"; -- the title 
+Text = "sorry this script is redacted due to 2soat not wanting the script public for now."; -- what the text says 
+Duration = 5; -- how long the notification should in secounds
+})
